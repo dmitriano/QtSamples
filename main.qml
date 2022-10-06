@@ -158,6 +158,16 @@ Window
 
             Button
             {
+                text: "Clear Dlg Refs"
+                onClicked:
+                {
+                    dynamicComp = null
+                    dynamicDlg = null
+                }
+            }
+
+            Button
+            {
                 text: "Open Page Via Comp"
                 onClicked:
                 {
