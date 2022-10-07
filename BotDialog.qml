@@ -85,10 +85,12 @@ Dialog
 
     onAccepted:
     {
+        Qt.callLater(destroy)
     }
 
     onRejected:
     {
+        Qt.callLater(destroy)
     }
 
     Component.onCompleted:
