@@ -6,7 +6,7 @@ A QT app demonstrating how to use std::shared_ptr in QML.
 
 ## TableDemo
 
-A QT app demonstrating redundant TableView updates, see QTBUG https://bugreports.qt.io/browse/QTBUG-134741.
+A QT app demonstrating redundant TableView updates.
 
 Building on Windows:
 
