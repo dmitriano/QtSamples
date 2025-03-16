@@ -1,6 +1,11 @@
-# GcBug
+# Sample QT apps
+
+## GcBug
+
 A QT app demonstrating how to use std::shared_ptr in QML.
 
-## Building with MSVC2022:
+## TableDemo
 
-    %MY_CMAKE_EXE% ..\..\repos\GcBug -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH=C:\dev\libs\Qt6.4\windows
+A QT app demonstrating redundant TableView updates.
+
+    %MY_CMAKE_EXE% ..\..\repos\QtSamples\TableDemo -G %MY_VS_GENERATOR% -A x64 -D CMAKE_PREFIX_PATH="%MY_QT_DIR%"
